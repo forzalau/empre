@@ -136,13 +136,17 @@ i {
     color: white;
 }
 
+main {
+    border-bottom: 1px solid white;
+}
+
 .info {
     padding: 0 30px;
 }
 
 .info h1 {
     color: white;
-    margin: 15px;
+    margin: 15px 0;
 }
 
 .white-box {
@@ -158,7 +162,8 @@ footer {
     display: flex;
     justify-content: center;
     padding: 15px;
-    margin-top: 15px;
+    margin-top: 20px;
+    border-top: 1px solid white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -189,8 +194,5 @@ footer {
     .info h1 {
         margin: 0;
         margin-bottom: 15px !important;
-    }
-    footer {
-        border-top: 1px solid white;
     }
 }
