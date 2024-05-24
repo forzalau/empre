@@ -154,17 +154,6 @@ i {
 }
 
 @media only screen and (max-width: 768px) {
-    #cloud {
-        left: -350px;
-    }
-
-    #cloud-medium {
-        left: -250px;
-    }
-
-    #cloud-small {
-        left: -150px;
-    }
     header {
         padding: 15px !important;
         border-bottom: 1px solid white;
