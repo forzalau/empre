@@ -81,3 +81,33 @@
         right: 110%;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .cloud0 {
+        animation: moveRight 25s linear infinite;
+    }
+
+    .cloud1 {
+        animation: moveLeft 17s linear infinite;
+    }
+
+    .cloud2 {
+        animation: moveLeft 13s linear infinite;
+    }
+
+    .cloud3 {
+        animation: moveLeft 34s linear infinite;
+    }
+
+    .cloud4 {
+        animation: moveRight 22s linear infinite;
+    }
+
+    .cloud5 {
+        animation: moveLeft 28s linear infinite;
+    }
+
+    .cloud6 {
+        animation: moveRight 18s linear infinite;
+    }
+}
