@@ -117,7 +117,6 @@ i {
     padding: 5px 15px;
     border-radius: 5px;
     margin-top: auto;
-    margin-bottom: 15px;
     position: relative;
     animation: floatAnimation 3s ease-in-out infinite;
 }
@@ -138,7 +137,7 @@ i {
 }
 
 .info {
-    padding: 30px;
+    padding: 0 30px;
 }
 
 .info h1 {
@@ -184,7 +183,7 @@ footer {
         width: 90%;
     }
     .info {
-        padding: 15px;
+        padding: 0 15px;
     }
     .info h1 {
         margin: 0;
