@@ -20,7 +20,7 @@
     height: 50px;
     top: 10%;
     left: -10%;
-    animation: moveRight 20s linear infinite;
+    animation: moveRight 25s linear infinite;
 }
 
 .cloud2 {
@@ -28,7 +28,7 @@
     height: 75px;
     top: 20%;
     left: -15%;
-    animation: moveRight 25s linear infinite;
+    animation: moveRight 15s linear infinite;
 }
 
 .cloud3 {
@@ -36,7 +36,7 @@
     height: 100px;
     top: 30%;
     right: -20%;
-    animation: moveLeft 30s linear infinite;
+    animation: moveLeft 20s linear infinite;
 }
 
 .cloud4 {
@@ -44,7 +44,7 @@
     height: 60px;
     top: 40%;
     left: -25%;
-    animation: moveRight 35s linear infinite;
+    animation: moveRight 25s linear infinite;
 }
 
 .cloud5 {
@@ -52,7 +52,7 @@
     height: 90px;
     top: 50%;
     right: -30%;
-    animation: moveLeft 40s linear infinite;
+    animation: moveLeft 30s linear infinite;
 }
 
 .cloud6 {
@@ -60,7 +60,7 @@
     height: 70px;
     top: 60%;
     left: -35%;
-    animation: moveRight 45s linear infinite;
+    animation: moveRight 20s linear infinite;
 }
 
 .cloud7 {
@@ -68,7 +68,7 @@
     height: 80px;
     top: 70%;
     right: -40%;
-    animation: moveLeft 50s linear infinite;
+    animation: moveLeft 15s linear infinite;
 }
 
 .cloud8 {
@@ -76,7 +76,7 @@
     height: 65px;
     top: 80%;
     left: -45%;
-    animation: moveRight 55s linear infinite;
+    animation: moveRight 30s linear infinite;
 }
 
 .cloud10 {
@@ -84,7 +84,7 @@
     height: 55px;
     top: 15%;
     left: -55%;
-    animation: moveRight 65s linear infinite;
+    animation: moveRight 20s linear infinite;
 }
 
 @keyframes moveRight {
