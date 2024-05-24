@@ -158,6 +158,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 15px;
+    margin-top: 15px;
 }
 
 @media only screen and (max-width: 768px) {
