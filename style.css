@@ -44,7 +44,6 @@ i {
 
 .logo,
 .cat,
-.view-all,
 .info h1 {
     text-shadow: 0 2px 1px #a93e3e;
 }
@@ -113,11 +112,14 @@ i {
 }
 
 .view-all {
+    background-color: #a93e3e;
     color: white;
-    padding: 5px 15px;
+    padding: 15px;
     border-radius: 5px;
     margin-top: auto;
+    margin-bottom: 15px;
     position: relative;
+    flex-direction: column;
     animation: floatAnimation 3s ease-in-out infinite;
 }
 
@@ -134,15 +136,6 @@ i {
 .view-all a {
     text-decoration: none;
     color: white;
-}
-
-.info {
-    padding: 0 30px;
-}
-
-.info h1 {
-    color: white;
-    margin: 15px 0;
 }
 
 .white-box {
