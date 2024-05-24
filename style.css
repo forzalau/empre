@@ -50,7 +50,7 @@ i {
     text-shadow: 0 2px 1px #a93e3e;
 }
 
-.view-all,
+.down,
 .reg {
     background-color: #a93e3e;
 }
@@ -65,8 +65,8 @@ i {
 .logo,
 .ad,
 .cat,
-.view-all,
-.view-all a,
+.down,
+.down a,
 footer {
     color: white;
 }
@@ -121,13 +121,12 @@ footer {
     margin-left: 15px;
 }
 
-.view-all {
+.down {
     padding: 15px;
     border-radius: 5px;
     margin-top: auto;
     margin-bottom: 15px;
-    position: relative;
-    flex-direction: column;
+    bottom: 0;
     animation: floatAnimation 3s ease-in-out infinite;
 }
 
@@ -141,7 +140,7 @@ footer {
     }
 }
 
-.view-all a {
+.down a {
     text-decoration: none;
 }
 
