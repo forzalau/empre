@@ -15,6 +15,19 @@
     opacity: 0.9;
 }
 
+.cloud0,
+.cloud4,
+.cloud6 {
+    left: -25%;
+}
+
+.cloud1,
+.cloud2,
+.cloud3,
+.cloud5 {
+    right: -25%;
+}
+
 .cloud0 {
     width: 150px;
     height: 75px;
@@ -84,30 +97,24 @@
 
 @media only screen and (max-width: 768px) {
     .cloud0 {
-        animation: moveRight 25s linear infinite;
+        animation: moveRight 25s linear infinite !important;
     }
-
     .cloud1 {
-        animation: moveLeft 17s linear infinite;
+        animation: moveLeft 17s linear infinite !important;
     }
-
     .cloud2 {
-        animation: moveLeft 13s linear infinite;
+        animation: moveLeft 13s linear infinite !important;
     }
-
     .cloud3 {
-        animation: moveLeft 34s linear infinite;
+        animation: moveLeft 34s linear infinite !important;
     }
-
     .cloud4 {
-        animation: moveRight 22s linear infinite;
+        animation: moveRight 22s linear infinite !important;
     }
-
     .cloud5 {
-        animation: moveLeft 28s linear infinite;
+        animation: moveLeft 28s linear infinite !important;
     }
-
     .cloud6 {
-        animation: moveRight 18s linear infinite;
+        animation: moveRight 18s linear infinite !important;
     }
 }
