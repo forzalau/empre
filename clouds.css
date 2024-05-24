@@ -5,14 +5,14 @@
     overflow: hidden;
     top: 0;
     left: 0;
-    z-index: -1; /* Asegura que las nubes estén detrás del contenido */
+    z-index: -1;
 }
 
 .cloud {
     position: absolute;
     background: url("nube.png") no-repeat;
     background-size: contain;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .cloud1 {
@@ -77,14 +77,6 @@
     top: 80%;
     left: -45%;
     animation: moveRight 55s linear infinite;
-}
-
-.cloud9 {
-    width: 170px;
-    height: 85px;
-    top: 90%;
-    right: -50%;
-    animation: moveLeft 60s linear infinite;
 }
 
 .cloud10 {
