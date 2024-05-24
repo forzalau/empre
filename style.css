@@ -136,10 +136,6 @@ i {
     color: white;
 }
 
-main {
-    border-bottom: 1px solid white;
-}
-
 .info {
     padding: 0 30px;
 }
@@ -163,7 +159,6 @@ footer {
     justify-content: center;
     padding: 15px;
     margin-top: 20px;
-    border-top: 1px solid white;
 }
 
 @media only screen and (max-width: 768px) {
