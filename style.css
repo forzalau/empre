@@ -157,6 +157,12 @@ i {
     header {
         border-bottom: 1px solid white;
     }
+    .btn {
+        font-size: small;
+    }
+    .reg {
+        font-size: small;
+    }
     .logo {
         margin-top: 20%;
     }
