@@ -153,6 +153,14 @@ i {
     padding: 15px;
 }
 
+footer {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
 @media only screen and (max-width: 768px) {
     header {
         padding: 15px !important;
@@ -174,5 +182,15 @@ i {
     .search,
     .cat {
         width: 90%;
+    }
+    .info {
+        padding: 15px;
+    }
+    .info h1 {
+        margin: 0;
+        margin-bottom: 15px !important;
+    }
+    footer {
+        border-top: 1px solid white;
     }
 }
