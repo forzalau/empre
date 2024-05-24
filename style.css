@@ -152,6 +152,7 @@ footer {
 .white-box {
     color: black;
     border-radius: 5px;
+    margin: 0 30px;
     padding: 15px;
 }
 
@@ -185,7 +186,7 @@ footer {
     .cat {
         width: 90%;
     }
-    .info {
-        padding: 0 15px;
+    .white-box {
+        margin: 0 5px !important;
     }
 }
