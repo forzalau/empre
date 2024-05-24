@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+    background-color: #cd5c5c;
+    overflow-x: hidden;
+}
+
+header {
+    height: auto;
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    transition: top 0.6s;
+}
+
+header div {
+    display: flex;
+    gap: 5px;
+}
+
+header p,
+i {
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.btn,
+.search,
+.white-box {
+    box-shadow: 0 2px 1px 0 #a93e3e;
+}
+
+.logo,
+.cat,
+.view-all,
+.info h1 {
+    text-shadow: 0 2px 1px #a93e3e;
+}
+
+.btn {
+    background-color: white;
+}
+
+.reg {
+    background-color: #a93e3e;
+    color: white;
+}
+
+.logo {
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.ad {
+    color: white;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.search-conteiner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search {
+    background-color: white;
+    height: auto;
+    width: 60%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.cat {
+    color: white;
+    font-size: 14px;
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.cat i {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.cat p {
+    margin-left: 15px;
+}
+
+.view-all {
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: 15px;
+    position: relative;
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, -10px);
+    }
+}
+
+.view-all a {
+    text-decoration: none;
+    color: white;
+}
+
+.info {
+    padding: 30px;
+}
+
+.info h1 {
+    color: white;
+    margin: 15px;
+}
+
+.white-box {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        border-bottom: 1px solid white;
+    }
+    .logo {
+        margin-top: 20%;
+    }
+    .ad {
+        margin: 0 !important;
+    }
+    .search,
+    .cat {
+        width: 80%;
+    }
+}

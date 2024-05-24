@@ -1,0 +1,121 @@
+#cloud {
+    width: 350px;
+    height: 120px;
+    background: #e1e1e1;
+    top: 50px;
+    left: -350px;
+    border-radius: 100px;
+    position: absolute;
+    margin: 120px auto 20px;
+    margin-top: 7%;
+    z-index: -1;
+    animation: moveCloud 25s linear infinite;
+}
+
+#cloud:after,
+#cloud:before {
+    content: "";
+    position: absolute;
+    background: #e1e1e1;
+}
+
+#cloud:after {
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: 50px;
+    border-radius: 100px;
+}
+
+#cloud:before {
+    width: 200px;
+    height: 200px;
+    top: -90px;
+    right: 50px;
+    border-radius: 200px;
+}
+
+/* Nube mediana */
+#cloud-medium {
+    width: 250px;
+    height: 80px;
+    background: #e1e1e1;
+    top: 150px;
+    left: -250px;
+    border-radius: 80px;
+    position: absolute;
+    margin: 120px auto 20px;
+    margin-top: 15%;
+    z-index: -1;
+    animation: moveCloud 20s linear infinite reverse;
+}
+
+#cloud-medium::before,
+#cloud-medium::after {
+    content: "";
+    position: absolute;
+    background: #e1e1e1;
+}
+
+#cloud-medium::after {
+    width: 80px;
+    height: 80px;
+    top: -40px;
+    left: 30px;
+    border-radius: 80px;
+}
+
+#cloud-medium::before {
+    width: 160px;
+    height: 160px;
+    top: -72px;
+    right: 30px;
+    border-radius: 160px;
+}
+
+/* Nube pequeña */
+#cloud-small {
+    width: 150px;
+    height: 50px;
+    background: #e1e1e1;
+    top: 250px;
+    left: -150px;
+    border-radius: 50px;
+    position: absolute;
+    margin: 120px auto 20px;
+    margin-top: 18%;
+    z-index: -1;
+    animation: moveCloud 20s linear infinite;
+}
+
+#cloud-small::before,
+#cloud-small::after {
+    content: "";
+    position: absolute;
+    background: #e1e1e1;
+}
+
+#cloud-small::after {
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 20px;
+    border-radius: 50px;
+}
+
+#cloud-small::before {
+    width: 100px;
+    height: 100px;
+    top: -45px;
+    right: 20px;
+    border-radius: 100px;
+}
+
+@keyframes moveCloud {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(calc(100% + 1200px));
+    }
+}
