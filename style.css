@@ -162,6 +162,12 @@ i {
     .reg {
         font-size: small;
     }
+    .logo {
+        margin-top: 20%;
+    }
+    .view-all {
+        margin-bottom: 15%;
+    }
     .ad {
         margin: 0 !important;
     }
