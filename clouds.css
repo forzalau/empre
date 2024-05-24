@@ -114,24 +114,31 @@
 
 @media only screen and (max-width: 768px) {
     .cloud0 {
-        animation: moveRight 28s linear infinite !important;
+        animation: moveRight 28s linear infinite,
+            moveUpDown 2.8s ease-in-out infinite !important;
     }
     .cloud1 {
-        animation: moveLeft 20s linear infinite !important;
+        animation: moveLeft 20s linear infinite,
+            moveUpDown 2s ease-in-out infinite !important;
     }
     .cloud2 {
-        animation: moveLeft 15s linear infinite !important;
+        animation: moveLeft 15s linear infinite,
+            moveUpDown 1.5s ease-in-out infinite !important;
     }
     .cloud3 {
-        animation: moveLeft 32s linear infinite !important;
+        animation: moveLeft 32s linear infinite,
+            moveUpDown 3.2s ease-in-out infinite !important;
     }
     .cloud4 {
-        animation: moveRight 25s linear infinite !important;
+        animation: moveRight 25s linear infinite,
+            moveUpDown 2.5s ease-in-out infinite !important;
     }
     .cloud5 {
-        animation: moveLeft 30s linear infinite !important;
+        animation: moveLeft 30s linear infinite,
+            moveUpDown 3s ease-in-out infinite !important;
     }
     .cloud6 {
-        animation: moveRight 18s linear infinite !important;
+        animation: moveRight 18s linear infinite,
+            moveUpDown 1.8s ease-in-out infinite !important;
     }
 }
