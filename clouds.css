@@ -1,15 +1,22 @@
+/* Estilo base para las nubes */
+#cloud,
+#cloud-medium,
+#cloud-small {
+    position: absolute;
+    background: #e1e1e1;
+    z-index: -1;
+    animation: moveCloud linear infinite;
+}
+
 #cloud {
     width: 350px;
     height: 120px;
-    background: #e1e1e1;
     top: 50px;
     left: -350px;
     border-radius: 100px;
-    position: absolute;
     margin: 120px auto 20px;
     margin-top: 7%;
-    z-index: -1;
-    animation: moveCloud 25s linear infinite;
+    animation-duration: 25s;
 }
 
 #cloud:after,
@@ -39,15 +46,13 @@
 #cloud-medium {
     width: 250px;
     height: 80px;
-    background: #e1e1e1;
     top: 150px;
     left: -250px;
     border-radius: 80px;
-    position: absolute;
     margin: 120px auto 20px;
     margin-top: 15%;
-    z-index: -1;
-    animation: moveCloud 20s linear infinite reverse;
+    animation-duration: 20s;
+    animation-direction: reverse;
 }
 
 #cloud-medium::before,
@@ -77,15 +82,12 @@
 #cloud-small {
     width: 150px;
     height: 50px;
-    background: #e1e1e1;
     top: 250px;
     left: -150px;
     border-radius: 50px;
-    position: absolute;
     margin: 120px auto 20px;
     margin-top: 18%;
-    z-index: -1;
-    animation: moveCloud 20s linear infinite;
+    animation-duration: 20s;
 }
 
 #cloud-small::before,
@@ -117,5 +119,59 @@
     }
     100% {
         transform: translateX(calc(100% + 1200px));
+    }
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 600px) {
+    /* Ajustes para #cloud */
+    #cloud {
+        top: 20px;
+        left: -200px;
+        margin-top: 10%;
+    }
+
+    #cloud:after {
+        top: -25px;
+        left: 25px;
+    }
+
+    #cloud:before {
+        top: -45px;
+        right: 25px;
+    }
+
+    /* Ajustes para #cloud-medium */
+    #cloud-medium {
+        top: 100px;
+        left: -150px;
+        margin-top: 12%;
+    }
+
+    #cloud-medium::after {
+        top: -20px;
+        left: 15px;
+    }
+
+    #cloud-medium::before {
+        top: -36px;
+        right: 15px;
+    }
+
+    /* Ajustes para #cloud-small */
+    #cloud-small {
+        top: 180px;
+        left: -100px;
+        margin-top: 15%;
+    }
+
+    #cloud-small::after {
+        top: -12px;
+        left: 10px;
+    }
+
+    #cloud-small::before {
+        top: -22.5px;
+        right: 10px;
     }
 }

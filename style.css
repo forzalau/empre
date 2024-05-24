@@ -138,6 +138,11 @@ i {
     color: white;
 }
 
+.res-info {
+    background-color: cornflowerblue;
+    height: 100vh;
+}
+
 .white-box {
     background-color: white;
     color: black;
