@@ -169,4 +169,7 @@ footer {
     .cat {
         width: 90%;
     }
+    .cat {
+        justify-content: center;
+    }
 }

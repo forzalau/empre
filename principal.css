@@ -40,40 +40,45 @@ i {
     border-radius: 5px;
 }
 
-.btn,
-.search,
-.box {
+.btn {
     box-shadow: 0 2px 1px 0 #a93e3e;
 }
 
-.logo,
-.cat,
-.info h1 {
+.logo {
     text-shadow: 0 2px 1px #a93e3e;
 }
 
-.down,
-.reg {
-    background-color: #a93e3e;
-}
-
-.btn,
-.search,
-.box {
+.btn {
     background-color: white;
 }
 
-.reg,
-.logo,
-.ad,
-.cat,
-.down,
-.down a,
-footer {
+.fa-user {
+    color: #a93e3e;
+}
+
+.logo {
     color: white;
 }
 
 .logo {
     font-size: 38px;
     font-weight: bold;
+}
+
+.search-container {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1200px) {
+    header {
+        padding: 15px !important;
+    }
+    .btn,
+    .reg {
+        font-size: small;
+    }
 }
