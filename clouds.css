@@ -124,7 +124,7 @@
             moveUpDown 2s ease-in-out infinite !important;
     }
     .cloud2 {
-        top: 72%;
+        top: 70%;
         animation: moveLeft 15s linear infinite,
             moveUpDown 1.5s ease-in-out infinite !important;
     }
