@@ -152,7 +152,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
     text-align: center;
 }
 
@@ -174,14 +174,6 @@ footer {
     font-size: 38px;
 }
 
-footer {
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    margin-top: 20px;
-}
-
 @media only screen and (max-width: 1200px) {
     header {
         padding: 15px !important;
@@ -194,9 +186,6 @@ footer {
     .logo {
         margin-top: 80px;
     }
-    .view-all {
-        margin-bottom: 20%;
-    }
     .ad {
         margin: 0 !important;
     }
@@ -204,11 +193,14 @@ footer {
     .cat {
         width: 90%;
     }
+    .res-info {
+        padding: 0 15px;
+    }
     .stats {
         flex-direction: column;
+        gap: 0;
     }
     .box {
-        margin: 0 5px !important;
         margin-bottom: 15px !important;
     }
 }
