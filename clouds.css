@@ -124,7 +124,7 @@
             moveUpDown 2s ease-in-out infinite !important;
     }
     .cloud2 {
-        top: 74%;
+        top: 72%;
         animation: moveLeft 15s linear infinite,
             moveUpDown 1.5s ease-in-out infinite !important;
     }
@@ -134,12 +134,12 @@
             moveUpDown 3.2s ease-in-out infinite !important;
     }
     .cloud4 {
-        top: 56%;
+        top: 54%;
         animation: moveRight 25s linear infinite,
             moveUpDown 2.5s ease-in-out infinite !important;
     }
     .cloud5 {
-        top: 80%;
+        top: 88%;
         animation: moveLeft 30s linear infinite,
             moveUpDown 3s ease-in-out infinite !important;
     }
