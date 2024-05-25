@@ -41,6 +41,16 @@ i {
     border-radius: 5px;
 }
 
+.btn.icon,
+.reg.icon {
+    display: none;
+}
+
+.btn.text,
+.reg.text {
+    display: inline;
+}
+
 .btn,
 .search,
 .box {
@@ -148,9 +158,20 @@ footer {
 }
 
 @media only screen and (max-width: 1200px) {
+    .btn.text,
+    .reg.text {
+        display: none;
+    }
+    .btn.icon,
+    .reg.icon {
+        display: inline;
+    }
     header {
         padding: 15px !important;
         border-bottom: 1px solid white;
+    }
+    header p {
+        padding: 0;
     }
     .search-conteiner {
         height: 90vh;
@@ -170,6 +191,10 @@ footer {
         width: 90%;
     }
     .cat {
+        font-size: 12px;
         justify-content: center;
+    }
+    .cat i {
+        font-size: 8px;
     }
 }
