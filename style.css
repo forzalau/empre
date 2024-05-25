@@ -164,6 +164,9 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+    .search-conteiner {
+        height: 90vh;
+    }
     header {
         padding: 15px !important;
         border-bottom: 1px solid white;
