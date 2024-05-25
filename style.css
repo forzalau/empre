@@ -84,7 +84,7 @@ footer {
 }
 
 .search-conteiner {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,6 +148,9 @@ footer {
     header {
         padding: 15px !important;
         border-bottom: 1px solid white;
+    }
+    .search-conteiner {
+        height: 90vh;
     }
     .btn,
     .reg {
