@@ -198,8 +198,8 @@ footer {
     .cat {
         width: 90%;
     }
-    .numberDisplay {
-        font-size: 22px;
+    .stats {
+        flex-direction: column;
     }
     .box {
         margin: 0 5px !important;
