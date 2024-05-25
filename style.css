@@ -144,36 +144,6 @@ footer {
     text-decoration: none;
 }
 
-.res-info {
-    padding: 0 30px;
-}
-
-.stats {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-    text-align: center;
-}
-
-.numberDisplay {
-    font-size: 28px;
-}
-
-.box {
-    width: 100%;
-    font-size: 18px;
-    color: black;
-    border-radius: 5px;
-    padding: 15px;
-    margin-bottom: 15px;
-}
-
-.box i {
-    color: #cd5c5c;
-    font-size: 38px;
-}
-
 @media only screen and (max-width: 1200px) {
     header {
         padding: 15px !important;
@@ -192,15 +162,5 @@ footer {
     .search,
     .cat {
         width: 90%;
-    }
-    .res-info {
-        padding: 0 15px;
-    }
-    .stats {
-        flex-direction: column;
-        gap: 0;
-    }
-    .box {
-        margin-bottom: 15px !important;
     }
 }
