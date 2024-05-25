@@ -21,6 +21,7 @@ header {
     height: auto;
     width: 100%;
     padding: 15px 30px;
+    margin-bottom: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
