@@ -165,7 +165,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .search-conteiner {
-        min-height: 89vh;
+        min-height: 86vh;
     }
     header {
         padding: 15px !important;
