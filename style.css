@@ -6,12 +6,15 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
     font-family: Montserrat;
     background-color: #cd5c5c;
-    overflow-x: hidden;
-    position: relative;
-    min-height: 100vh;
+    overflow: hidden;
 }
 
 header {
