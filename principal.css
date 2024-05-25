@@ -40,6 +40,14 @@ i {
     border-radius: 5px;
 }
 
+.btn.icon {
+    display: none;
+}
+
+.btn.text {
+    display: inline;
+}
+
 .btn {
     box-shadow: 0 2px 1px 0 #a93e3e;
 }
@@ -74,8 +82,17 @@ i {
 }
 
 @media only screen and (max-width: 1200px) {
+    .btn.text {
+        display: none;
+    }
+    .btn.icon {
+        display: inline;
+    }
     header {
         padding: 15px !important;
+    }
+    header p {
+        padding: 0;
     }
     .logo {
         font-size: 28px;
