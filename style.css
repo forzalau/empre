@@ -40,7 +40,7 @@ i {
 
 .btn,
 .search,
-.white-box {
+.box {
     box-shadow: 0 2px 1px 0 #a93e3e;
 }
 
@@ -57,7 +57,7 @@ i {
 
 .btn,
 .search,
-.white-box {
+.box {
     background-color: white;
 }
 
@@ -145,14 +145,27 @@ footer {
 }
 
 .res-info {
-    padding: 15px;
+    padding: 0 30px;
 }
 
-.white-box {
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.numberDisplay {
+    font-size: 32px;
+}
+
+.box {
+    width: 100%;
     color: black;
     border-radius: 5px;
-    margin: 0 30px;
     padding: 15px;
+    margin-bottom: 15px;
 }
 
 footer {
@@ -185,7 +198,11 @@ footer {
     .cat {
         width: 90%;
     }
-    .white-box {
+    .numberDisplay {
+        font-size: 22px;
+    }
+    .box {
         margin: 0 5px !important;
+        margin-bottom: 15px !important;
     }
 }

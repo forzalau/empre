@@ -28,20 +28,23 @@ document.addEventListener("DOMContentLoaded", () => {
         let currentNumber = 0;
 
         const interval = setInterval(() => {
-            currentNumber = Math.min(currentNumber + increment, finalNumber);
-            element.innerText = Math.floor(currentNumber);
+            currentNumber += increment;
+            element.innerText =
+                "+ " + Math.floor(Math.min(currentNumber, finalNumber));
             if (currentNumber >= finalNumber) clearInterval(interval);
         }, 10);
     };
 
     const observer = new IntersectionObserver(
-        (entries) => {
+        (entries, observer) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                     const element = entry.target;
-                    const finalNumber = +element.dataset.finalNumber;
-                    const duration = 2000; // Puedes ajustar la duración si es necesario
-                    incrementarNumero(element, finalNumber, duration);
+                    incrementarNumero(
+                        element,
+                        +element.dataset.finalNumber,
+                        3000
+                    );
                     observer.unobserve(element);
                 }
             });
