@@ -134,6 +134,7 @@ main {
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     position: relative;
     z-index: 1;
+    border-bottom: 1px solid white;
 }
 
 @media only screen and (max-width: 1200px) {
