@@ -186,9 +186,8 @@ footer {
     .ad {
         margin: 0 !important;
     }
-    .search,
-    .cat {
-        width: 94%;
+    .search {
+        width: 90%;
     }
     .cat {
         font-size: 12px;
