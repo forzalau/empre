@@ -1,6 +1,6 @@
 .emp-conteiner {
     background-color: white;
-    height: 250px;
+    height: 300px;
     width: 100%;
     padding: 15px 30px;
     background-size: contain;
@@ -16,7 +16,7 @@
     background-color: white;
     color: black;
     width: 80%;
-    height: 40px;
+    height: auto;
     border-radius: 5px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
     padding: 5px;
@@ -41,7 +41,7 @@
 
 .emp-avatar {
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     height: 30px;
     width: 30px;
@@ -49,27 +49,30 @@
     margin-right: 5px;
 }
 
-.emp-prod-conteiner {
+.emp-prod-box {
+    background-color: white;
+    height: 250px;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emp-prod {
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
-    gap: 5px;
-}
-
-.emp-prod-box {
-    background-color: white;
-    height: 175px;
-    width: 142px;
-    border-radius: 5px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
 }
 
 @media only screen and (max-width: 1200px) {
     .emp-conteiner {
         padding: 15px;
     }
-    .emp-box {
+    .emp-box,
+    .emp-prod-box {
         width: 100%;
     }
 }
