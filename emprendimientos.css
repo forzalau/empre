@@ -8,6 +8,8 @@
     border-bottom: 1px solid white;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .emp-box {
@@ -16,15 +18,20 @@
     width: 80%;
     height: 40px;
     border-radius: 5px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
     padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 .emp-box p {
     font-weight: bold;
+}
+
+.emp-box i {
+    color: gold;
 }
 
 .emp-box div {
@@ -39,8 +46,23 @@
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background-color: black;
     margin-right: 5px;
+}
+
+.emp-prod-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.emp-prod-box {
+    background-color: white;
+    height: 175px;
+    width: 142px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (max-width: 1200px) {

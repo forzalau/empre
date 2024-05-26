@@ -13,7 +13,7 @@ a {
 
 body {
     font-family: Montserrat;
-    background-color: white;
+    background-color: #cd5c5c;
 }
 
 header {
@@ -28,6 +28,8 @@ header {
     top: 0;
     z-index: 9;
     transition: top 0.6s;
+    border-bottom: 1px solid white;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 header div {
@@ -71,7 +73,7 @@ i {
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 33px;
     font-weight: bold;
 }
 
