@@ -1,15 +1,53 @@
 .emp-conteiner {
     background-color: white;
-    height: 200px;
+    height: 250px;
     width: 100%;
     padding: 15px 30px;
     background-size: contain;
     background-repeat: repeat;
     border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.emp-box {
+    background-color: white;
+    color: black;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.emp-box p {
+    font-weight: bold;
+}
+
+.emp-box div {
+    display: flex;
+    align-items: center;
+}
+
+.emp-avatar {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 5px;
 }
 
 @media only screen and (max-width: 1200px) {
     .emp-conteiner {
         padding: 15px;
+    }
+    .emp-box {
+        width: 100%;
     }
 }
