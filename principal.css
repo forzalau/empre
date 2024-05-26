@@ -154,5 +154,6 @@ main {
     }
     .cat {
         justify-content: center !important;
+        font-size: 12px;
     }
 }
