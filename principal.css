@@ -150,10 +150,10 @@ main {
         padding: 15px 15px 5px 15px;
     }
     .search {
-        width: 90%;
+        width: 100%;
     }
     .cat {
-        justify-content: center !important;
+        width: 100%;
         font-size: 12px;
     }
 }
