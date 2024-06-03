@@ -1,11 +1,11 @@
 .emp-conteiner {
     background-color: white;
-    height: 300px;
+    height: 380px;
     width: 100%;
     padding: 15px 30px;
     background-size: contain;
     background-repeat: repeat;
-    border-bottom: 1px solid white;
+    border-top: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +32,8 @@
 
 .emp-box i {
     color: gold;
+    padding: 0;
+    margin-left: 10px;
 }
 
 .emp-box div {
@@ -51,12 +53,13 @@
 
 .emp-prod-box {
     background-color: white;
-    height: 250px;
+    height: 100%;
     width: 80%;
     border-radius: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .emp-prod {
@@ -64,7 +67,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
 }
 
 @media only screen and (max-width: 1200px) {
